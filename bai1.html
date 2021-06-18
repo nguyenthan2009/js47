@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function meterToFoot(meter){
+        return  3.279 * meter
+    }
+    function footToMeter(foot){
+          return 0.305 * foot
+    }
+    meters= +prompt("nhập số mét muốn chuyển")
+    foots= +prompt("nhập số foot muốn chuyển")
+  let foot = meterToFoot(meters)
+ let  meter= footToMeter(foots)
+    document.write("số foot sau khi chuyển từ mét sang là:" +foot+ '<br>')
+    document.write("số mét sau khi chuyển từ foot sang là:" +meter)
+
+
+</script>
+
+</body>
+</html>
